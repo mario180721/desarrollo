@@ -1,0 +1,5 @@
+package com.curso.flota.dominio;
+
+public class Caja {
+
+}

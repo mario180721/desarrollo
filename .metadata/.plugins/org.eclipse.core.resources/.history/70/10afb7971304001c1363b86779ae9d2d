@@ -1,0 +1,19 @@
+package com.curso.saludo;
+
+import org.apache.log4j.Logger;
+
+public class Application
+
+
+{
+	
+	static Logger log =Logger.getLogger(Application.class);
+	public static void main( String[] args )
+	{
+		
+		System.out.println("HOla Mundo");
+		log.debug("se ejecuto hola mundo");
+		
+		int a=6;
+	}
+}

@@ -1,0 +1,7 @@
+package com.curso.flota.informes;
+import com.curso.flota.dominio.*;
+public class InformeFlota {
+
+}
+
+class AsistenteInforme{}

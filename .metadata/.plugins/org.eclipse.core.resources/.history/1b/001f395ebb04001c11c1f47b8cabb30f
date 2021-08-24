@@ -1,0 +1,38 @@
+package com.curso.flota.dominio;
+
+import java.io.Serializable;
+
+/**
+ *  Clase que modela datos de un vechiculo
+ *  la carga maxima permitida se asigna en Kg
+ * @author USER
+ * @version 1.0.0
+ *
+ */
+
+public class Vehiculo implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
+	//atributos
+		
+	private double cargaMaxima;
+	
+	// constructores
+	public Vehiculo(double cargaMaxima) {
+		super();
+		this.cargaMaxima = cargaMaxima;
+	}
+	//metodos
+	public double getCargaMaxima() {
+		return cargaMaxima;
+	}
+		
+	public void setCargaMaxima(double cargaMaxima) {
+		this.cargaMaxima = cargaMaxima;
+	}
+		
+	
+	
+	
+
+}
