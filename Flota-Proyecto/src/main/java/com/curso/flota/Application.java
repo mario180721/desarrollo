@@ -40,7 +40,9 @@ public class Application
 		v2.cargar(new Caja(70));
 		System.out.println(v2);
 		
-			
+		
+		double d = Vehiculo.CARGA_MAXIMA_DEFECTO;
+	    double dd= v2.CARGA_MAXIMA_DEFECTO;
 	}
 
 	

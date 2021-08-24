@@ -13,7 +13,14 @@ import java.io.Serializable;
 public class Vehiculo implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
-	//atributos
+	
+	//variables de clase - 1parala toda la aplicacion
+	
+	public static final double CARGA_MAXIMA_DEFECTO =1000.0;
+	
+	
+	
+	//atributos - variables de instancia (objeto)
 		
 	private double cargaMaxima;
 	private String matricula;

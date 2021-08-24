@@ -1,5 +1,7 @@
 package com.curso.varios;
 
+import java.util.Objects;
+
 public class Punto {
 	private int x;
 	private  int y;
@@ -23,6 +25,32 @@ public class Punto {
 	public void setY(int y) {
 		this.y = y;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Punto [x=" + x + ", y=" + y + "]";
+	}
+
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(x, y);
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Punto other = (Punto) obj;
+		return x == other.x && y == other.y;
+	}
+	
 	
 
 }

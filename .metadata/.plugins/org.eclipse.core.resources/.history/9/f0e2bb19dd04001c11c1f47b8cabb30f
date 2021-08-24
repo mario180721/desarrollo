@@ -1,0 +1,16 @@
+package com.curso.mybank;
+
+public class TestBanking {
+
+	public static void main(String[] args) {
+		
+		Customer c1=new Customer("Mario", "Crespo");
+		Account c =new Account(500.00);
+		
+		System.out.println(" Creando el cliente " + c1.getFirstName()+" "+c1.getLastName());
+		System.out.println(" Creando su cuenta bancaria con el saldo " + c.getBalance());
+
+
+	}
+
+}

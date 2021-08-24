@@ -1,0 +1,38 @@
+package com.curso.mybank;
+
+public class Account {
+
+	private double balance;
+
+	public Account(double balance) {
+		super();
+		this.balance = balance;
+	}
+	
+	
+	public boolean deposit(double amt) {
+		
+		this.balance=this.balance+amt;
+		
+		return true;}
+	
+	
+public boolean withdraw(double amt) {
+	
+	if (this.balance+amt>0) {
+		
+		return true;
+		
+	} else {
+		return false;
+	}
+	
+	
+	
+	
+}
+
+
+}
+
+
