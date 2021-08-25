@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\desarrollo"/>
 			<item value="C:\desarrollo\Hola-proyecto2"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,12 +27,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.curso.refrescos"/>
+			<item value="com.curso.maquina"/>
+			<item value="com.curso.mybank"/>
+			<item value="com.curso.flota"/>
 			<item value="com.curso.HolaWeb"/>
 		</list>
 		<list key="groupId">
 			<item value="com.curso"/>
 		</list>
 		<list key="artifactId">
+			<item value="refrescos"/>
+			<item value="maquina"/>
+			<item value="mybank"/>
+			<item value="Flota-Proyecto"/>
 			<item value="HolaWeb"/>
 		</list>
 		<list key="projectNameTemplate">
