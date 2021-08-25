@@ -1,6 +1,7 @@
 package com.curso.flota;
 
 import com.curso.flota.dominio.Caja;
+import com.curso.flota.dominio.Camion;
 import com.curso.flota.dominio.Vehiculo;
 
 public class Application
@@ -46,13 +47,31 @@ public class Application
 	}
 
 	
-	private static void generador(Vehiculo v, int nota) {
+	/*private static void generador(Vehiculo v, int nota) {
 	
 		
 		Vehiculo v4=v;
 		nota=9;
 		 v4.setCargaMaxima(555.0);
-		Vehiculo v5 = new Vehiculo (4000,"BUUU");
+	//	Vehiculo v5 = new Vehiculo (4000,"BUUU");
 		
-	}
+				
+	}*/
+	
+//Vehiculo[] lista=new Vehiculo[3];
+	
+	lista [0]= new Camion (1000,"c111",5);
+	lista [1]= new Barcaza (1000,"b111");
+	lista [2]= new Camion (1000,"d111",2);
+	
+	new InformeFlota().informeConsumo(lista);
+	
+	Vehiculo micamion=new Camion(44,"",7);
+	
+	
 }
+
+}
+
+
+	

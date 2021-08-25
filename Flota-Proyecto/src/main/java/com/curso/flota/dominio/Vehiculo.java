@@ -10,7 +10,7 @@ import java.io.Serializable;
  *
  */
 
-public class Vehiculo implements Serializable {
+public abstract  class Vehiculo implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
@@ -74,6 +74,7 @@ public class Vehiculo implements Serializable {
 		
 	}
 	
+	public abstract double calcularFuel();
 	
 	
 	@Override
