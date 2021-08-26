@@ -6,7 +6,7 @@ public class Customer {
 	
 	private  String firstName;
 	private  String lastName;
-	Account account;
+	private Account account;
 	
 	
 	public Customer(String firstName, String lastName) {
@@ -15,6 +15,7 @@ public class Customer {
 		this.lastName = lastName;
 	}
 
+	
 
 	public String getLastName() {
 		return lastName;
@@ -36,10 +37,9 @@ public class Customer {
 	}
 	 
 	
-	public Account setAccount(Account acct) {
-		return account;
+	public void setAccount(Account acct) {
+		account = acct;
+	
 	}
-	
-	
 	
 }

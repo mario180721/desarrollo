@@ -14,7 +14,7 @@ public class Customer {
 	
 
 
-	public Customer(String firstName, String lastName, Account[] accounts) {
+	public Customer(String firstName, String lastName) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
