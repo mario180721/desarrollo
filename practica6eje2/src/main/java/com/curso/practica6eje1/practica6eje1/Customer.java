@@ -6,33 +6,16 @@ public class Customer {
 	
 	private  String firstName;
 	private  String lastName;
-	
-    private Account [] accounts;
-    private int numberOfAccounts;
-	//Account account;
+	private Account account;
 	
 	
-
-
 	public Customer(String firstName, String lastName) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
-		accounts = new Account[10];
-		numberOfAccounts = 0;
-
 	}
 
-
-	public int getNumberOfAccounts() {
-		return numberOfAccounts;
-	}
-
-
-	public void setNumberOfAccounts(int numberOfAccounts) {
-		this.numberOfAccounts = numberOfAccounts;
-	}
-
+	
 
 	public String getLastName() {
 		return lastName;
@@ -49,30 +32,14 @@ public class Customer {
 	}
 
 
-	public Account[] getAccounts() {
-		return accounts;
+	public Account getAccount() {
+		return account;
 	}
-
-
-	public void setAccounts(Account[] accounts) {
-		this.accounts = accounts;
-	}
-
-
+	 
 	
-	public void addAccount(Account obj) {
-		
-		int i = numberOfAccounts++;
-		accounts[i] = obj;
-		
-	}
+	public void setAccount(Account acct) {
+		account = acct;
 	
-	public int getNumOfAccounts() {
-		return numberOfAccounts;
-		}
-
-	public Account getAccount(int account_index) {
-		return accounts[account_index];
 	}
 	
 }

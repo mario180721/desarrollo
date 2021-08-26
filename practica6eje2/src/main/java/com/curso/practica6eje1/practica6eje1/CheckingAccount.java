@@ -21,7 +21,6 @@ public class CheckingAccount extends Account{
 	}
 	
 		
-		
 	public boolean withdraw(double amount) {
 		boolean result = true;
 		if ( balance < amount ) {
