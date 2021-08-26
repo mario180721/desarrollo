@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\desarrollo\Flota-Proyecto\src\main\java\com\curso\flota\dominio\Vehiculo.java"/>
 			<item value="C:\desarrollo"/>
 			<item value="C:\desarrollo\Hola-proyecto2"/>
 		</list>
@@ -27,6 +28,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.curso.PracticaPOOAvanzado"/>
+			<item value="com.curso.inter"/>
 			<item value="com.curso.refrescos"/>
 			<item value="com.curso.maquina"/>
 			<item value="com.curso.mybank"/>
@@ -37,6 +40,8 @@
 			<item value="com.curso"/>
 		</list>
 		<list key="artifactId">
+			<item value="PracticaPOOAvanzado"/>
+			<item value="inter"/>
 			<item value="refrescos"/>
 			<item value="maquina"/>
 			<item value="mybank"/>
