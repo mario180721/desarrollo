@@ -5,4 +5,8 @@
     <fullyQualifiedTypeName name="com.curso.flota.dominio.Caja"/>
     <fullyQualifiedTypeName name="com.curso.flota.dominio.Vehiculo"/>
     <fullyQualifiedTypeName name="com.curso.mybank.Account"/>
+    <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.SavingsAccount"/>
+    <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.CheckingAccount"/>
+    <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.Account"/>
+    <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.Bank"/>
 </qualifiedTypeNameHistroy>
