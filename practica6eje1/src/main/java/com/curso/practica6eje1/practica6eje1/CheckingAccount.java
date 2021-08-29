@@ -13,6 +13,9 @@ public class CheckingAccount extends Account{
 		// TODO Auto-generated constructor stub
 	}
 	
+
+	// Preguntar por esta parte
+	
 	
 	public CheckingAccount(double initBalance) {
 		

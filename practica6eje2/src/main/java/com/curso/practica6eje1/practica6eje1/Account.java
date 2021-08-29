@@ -3,6 +3,8 @@ package com.curso.practica6eje1.practica6eje1;
 public class Account {
 
 	protected double balance;
+	
+	
 
 	protected Account(double balance) {
 		super();
