@@ -7,6 +7,9 @@
     <fullyQualifiedTypeName name="com.curso.mybank.Account"/>
     <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.SavingsAccount"/>
     <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.CheckingAccount"/>
-    <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.Account"/>
     <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.Bank"/>
+    <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.Account"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.curso.practica6eje1.practica6eje1.OverdraftException"/>
 </qualifiedTypeNameHistroy>
