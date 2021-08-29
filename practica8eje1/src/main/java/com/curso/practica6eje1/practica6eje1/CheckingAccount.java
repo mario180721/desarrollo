@@ -24,20 +24,17 @@ public class CheckingAccount extends Account{
 	}
 	
 		
-	public boolean withdraw(double amount) {
-		boolean result = true;
-		if ( balance < amount ) {
-		double overdraftNeeded = amount - balance;
-		if ( overdraftAmount < overdraftNeeded ) {
-		result = false;
-		} else {
-		balance = 0.0;
-		overdraftAmount -= overdraftNeeded;
-		}
-		} else {
-		balance -= amount;
-		}
-		return result;
+	public void withdraw(double amount) throws OverdraftException {
+		   if (amount > 0 && this.balance - amount >= 0 - this.overdraftAmount) {
+	            if (this.balance - amount < 0) {
+	                this.overdraftAmount += this.balance - amount;;
+	                this.balance = 0;
+	            } else {
+	                this.balance = this.balance - amount;
+	            }
+	        } else {
+	            throw new OverdraftException("CheckingAccount.java OverdraftException!", this.balance - amount);
+	        }
 	}
 
 }
